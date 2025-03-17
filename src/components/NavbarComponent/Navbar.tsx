@@ -26,7 +26,7 @@ const Navbar = () => {
   
         <div className="flex gap-2">
           <a
-            href="https://v0.dev/api/auth/login?next=%2Fchat"
+            href="/"
             className="focus:border-alpha-400 focus-visible:border-alpha-400 disabled:border-alpha-300 font-bold bg-white border-alpha-400 hover:border-alpha-400 
             focus-visible:ring-offset-background aria-disabled:border-alpha-300 inline-flex shrink-0 cursor-pointer select-none items-center justify-center gap-1.5 
             whitespace-nowrap text-nowrap border outline-none ring-blue-600 transition-[background,border-color,color,transform,opacity,box-shadow] 
@@ -39,7 +39,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://v0.dev/api/auth/login?next=%2Fchat&action=signup"
+            href="/"
             className="focus-visible:ring-offset-background inline-flex shrink-0 cursor-pointer select-none items-center justify-center gap-1.5 
             whitespace-nowrap text-nowrap border outline-none ring-blue-600 transition-[background,border-color,color,transform,opacity,box-shadow] 
             focus-visible:ring-2 focus-visible:ring-offset-1 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-gray-100 disabled:text-gray-400 

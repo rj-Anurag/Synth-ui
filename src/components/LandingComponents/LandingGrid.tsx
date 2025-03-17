@@ -1,4 +1,5 @@
 import { Spotlight } from "../../ui/Spotlight";
+import { FaChevronRight } from "react-icons/fa6";
 
 const LandingGradient = () => {
   return (
@@ -8,7 +9,7 @@ const LandingGradient = () => {
 
       <Spotlight />
 
-      
+
       <div className="p-4 max-w-7xl mx-auto relative z-10 w-full text-center grid grid-cols-2 gap-4" >
        <div>
 
@@ -18,13 +19,13 @@ const LandingGradient = () => {
           Your  own Code Editor
         </h1>
         <h3 className="text-xl sm:text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 mt-5 font-mono">
-        Start Building Today 
+        Start Building Today
         </h3>
-        <button className="px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
-         Brutal
+        <button className="px-8 py-0.5 mt-10 border-2 border-black hover:border-white dark:border-white uppercase font-bold bg-white hover:bg-black hover:text-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
+         Start Building <span className="inline-block align-middle"> <FaChevronRight/> </span>
         </button>
         </div>
-        
+
 
       </div>
     </div>
